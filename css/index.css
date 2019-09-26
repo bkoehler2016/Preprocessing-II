@@ -204,8 +204,9 @@ img {
   border-radius: 10px;
   background-color: teal;
   color: white;
-  cursor: wait;
+  cursor: pointer;
   font-size: 16px;
+  width: 65%;
 }
 .home .content-section {
   margin: 30px 0;
