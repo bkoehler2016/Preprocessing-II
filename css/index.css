@@ -229,7 +229,7 @@ img {
 @media (max-width: 500px) {
   .btn {
     display: flex;
-    color: #17A2B8;
+    background-color: #17A2B8;
     flex-direction: column;
     align-items: center;
   }
@@ -277,6 +277,11 @@ img {
 .home .inverse-content {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
+}
+@media (max-width: 500px) {
+  .home .inverse-content {
+    flex-direction: column-reverse;
+  }
 }
 .home .inverse-content .text-content {
   padding-left: 1%;
