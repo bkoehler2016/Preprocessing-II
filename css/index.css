@@ -177,6 +177,12 @@ img {
   margin: 20px;
   width: 50%;
 }
+@media (max-width: 500px) {
+  .mainNav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
 .funBus {
   display: flex;
   justify-content: flex-start;
@@ -187,6 +193,15 @@ img {
 }
 .fun-bus-img {
   margin: 20px;
+}
+@media (max-width: 500px) {
+  .fun-bus-img {
+    display: flex;
+    margin-bottom: 0 4%;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+  }
 }
 .footer {
   width: 100%;
@@ -214,13 +229,36 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .home .content-section {
+    display: flex;
+    margin-bottom: 0 4%;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+  }
+}
 .home .content-section .text-content {
   width: 48%;
   padding-right: 1%;
 }
+@media (max-width: 500px) {
+  .home .content-section .text-content {
+    width: 85vw;
+    margin: 0 auto;
+    padding-bottom: 5%;
+  }
+}
 .home .content-section .img-content {
   width: 48%;
   padding-left: 1%;
+}
+@media (max-width: 500px) {
+  .home .content-section .img-content {
+    width: 85vw;
+    margin: 0 auto;
+    padding-bottom: 5%;
+  }
 }
 .home .content-section .img-content img {
   border-radius: 10px;
@@ -232,6 +270,13 @@ img {
 .home .inverse-content .text-content {
   padding-left: 1%;
   padding-right: 0;
+}
+@media (max-width: 500px) {
+  .home .inverse-content .text-content {
+    width: 85vw;
+    margin: 0 auto;
+    padding-bottom: 5%;
+  }
 }
 .home .inverse-content .img-content {
   padding-right: 1%;
@@ -250,7 +295,24 @@ img {
   display: flex;
   justify-content: space-between;
 }
-.home .content-pick .destination {
+@media (max-width: 500px) {
+  .home .content-pick {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.home .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+@media (max-width: 500px) {
+  .home .destination {
+    display: flex;
+    width: 80vw;
+    margin-left: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
 }
