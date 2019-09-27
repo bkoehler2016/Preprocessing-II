@@ -217,19 +217,19 @@ img {
 .btn {
   padding: 10px 30px;
   border-radius: 10px;
-  background-color: #17A2B8;
+  background-color: #17A2B7;
   color: white;
   cursor: pointer;
   font-size: 16px;
   width: 65%;
 }
 .btn:hover {
-  background-color: #0c525d;
+  background-color: #0c525c;
 }
 @media (max-width: 500px) {
   .btn {
     display: flex;
-    color: #17A2B8;
+    color: #17A2B7;
     flex-direction: column;
     align-items: center;
   }
