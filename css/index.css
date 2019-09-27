@@ -223,6 +223,9 @@ img {
   font-size: 16px;
   width: 65%;
 }
+.btn:hover {
+  background-color: #001a1a;
+}
 @media (max-width: 500px) {
   .btn {
     display: flex;
