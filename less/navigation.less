@@ -1,1 +1,39 @@
 // Navigation Styles here
+
+.mainNav {
+    .flex(space-between, flex-start, row, @small);
+    margin: @margin;
+    width: 50%;
+
+
+
+    @media @mobile {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+
+
+}
+
+
+
+.funBus {
+    .flex(flex-start, center, row, 4rem);
+    margin: @margin;
+
+
+}
+
+.fun-bus-img {
+    margin: @margin;
+
+    @media @mobile {
+        display: flex;
+        margin-bottom: 0 4%;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 5%;
+
+    }
+}

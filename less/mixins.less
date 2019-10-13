@@ -1,1 +1,23 @@
 // Mixins in here
+.flex (@justify, @align, @flex-direction, @font-size) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+    flex-direction: @flex-direction;
+    font-size: @font-size;
+
+
+}
+
+.btn-style(@padding, @border-radius, @background-color, @color, @cursor) {
+    padding: @padding;
+    border-radius: @border-radius;
+    background-color: @background-color;
+    color: @color;
+    cursor: @cursor;
+
+    &:hover {
+        background-color: darken(@background-color, 40%);
+    }
+
+}
